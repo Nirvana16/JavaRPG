@@ -3,14 +3,13 @@ package rpg.personagens;
 public abstract class Personagem {
 
 //ATRIBUTOS ==========================================================================================
+	protected String nome;
+	private Racas raca; //Linkando ao Enumerator 
 	protected int pontosDeVida, 
 				  forca, 
 				  velocidade,
 				  defesa, 
 				  nivel;
-	protected String nome;
-	private Racas raca;
-	
 
 	
 // GETTERS E SETTERS ==============================================================================	
