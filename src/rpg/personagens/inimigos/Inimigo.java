@@ -1,7 +1,6 @@
  package rpg.personagens.inimigos;
 
 import rpg.personagens.Personagem;
-import rpg.personagens.Racas;
 
 public abstract class Inimigo extends Personagem {
 
@@ -12,7 +11,7 @@ public abstract class Inimigo extends Personagem {
 	public Inimigo(){
 		
 	}	
-	public Inimigo(Racas raca){
+	public Inimigo(RacasEnum raca){
 		switch (raca){
 			case ZUMBI:
 				System.out.println("Raca: Zumbi");

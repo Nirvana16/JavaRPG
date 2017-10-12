@@ -1,11 +1,13 @@
 package rpg.personagens;
 
+import rpg.personagens.inimigos.RacasEnum;
+
 public abstract class Personagem {
 
 //ATRIBUTOS ==========================================================================================
 	protected String nome;
-	private Racas raca; //Linkando ao Enumerator S 
-	protected int pontosDeVida, 
+	private RacasEnum raca; //Linkando ao Enumerator S 
+	private int pontosDeVida, 
 				  forca, 
 				  velocidade,
 				  defesa, 
@@ -50,10 +52,10 @@ public abstract class Personagem {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public Racas getRaca() {
+	public RacasEnum getRaca() {
 		return raca;
 	}
-	public void setRaca(Racas raca) {
+	public void setRaca(RacasEnum raca) {
 		this.raca = raca;
 	}
 

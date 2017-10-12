@@ -1,6 +1,6 @@
-package rpg.personagens;
+package rpg.personagens.inimigos;
 
-public enum Racas {
+public enum RacasEnum {
 	ZUMBI, HUMANO, ELFO, GOBlIN;
 
 }
