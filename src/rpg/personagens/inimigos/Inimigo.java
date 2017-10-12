@@ -3,7 +3,7 @@
 import rpg.personagens.Personagem;
 import rpg.personagens.Racas;
 
-public class Inimigo extends Personagem {
+public abstract class Inimigo extends Personagem {
 
 //ATRIBUTOS ===================================================================================	
 	private int experiencia;
@@ -33,18 +33,6 @@ public class Inimigo extends Personagem {
 	}
 	
 //METODOS ===================================================================================
-	@Override
-	public void atacar(){
-		
-	}
-	@Override
-	public void defender(){
-		
-	}
-	@Override
-	public void usarMagia(){
-		
-	}
 	
 
 }
