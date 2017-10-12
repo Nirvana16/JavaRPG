@@ -4,7 +4,7 @@ public abstract class Personagem {
 
 //ATRIBUTOS ==========================================================================================
 	protected String nome;
-	private Racas raca; //Linkando ao Enumerator 
+	private Racas raca; //Linkando ao Enumerator S 
 	protected int pontosDeVida, 
 				  forca, 
 				  velocidade,
